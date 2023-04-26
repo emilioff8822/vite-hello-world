@@ -1,5 +1,7 @@
 <script>
+import jumbo from './components/jumbo.vue'
 export default {
+  components: { jumbo },
   name: 'AppTitle',
 
   data() {
@@ -12,6 +14,7 @@ export default {
 
 <template>
   <h1>{{ title }}</h1>
+  <jumbo/>
 </template>
 
 <style>
